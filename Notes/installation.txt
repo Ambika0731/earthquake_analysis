@@ -1,0 +1,2 @@
+pip install pyspark
+install JAVA: https://www.geeksforgeeks.org/how-to-install-java-on-macos/
