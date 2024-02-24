@@ -1,0 +1,36 @@
+About PySpark:
+
+1. Pyspark is python API for Apache Spark. 
+2. It helps to analyse and process real-time large scale data in distributed environment using python.
+3. PySpark is combination of Pandas dataframe and SQL
+
+Why Pyspark is fast?
+
+PySpark's speed is a result of its distributed and in-memory computing capabilities, combined with optimization techniques and integration with the Hadoop ecosystem
+
+- Distributed computing: 
+	- We can split data into smaller partitions and perform parallel processing on them.
+	- Pandas run operations on a single machine whereas PySpark runs on multiple machines.
+- in-memory computation: 
+	- Spark performs most of its computations in-memory, reducing the need to read from and write to disk,
+- Lazy Evaluation: 
+	- transformation on datasets are not executed immediately
+	- Spark builds up a directed acyclic graph (DAG) of the transformations, optimizing and combining them, and executes them only when an action is called.
+	- Spark builds a directed acyclic graph (DAG) of the computation plan, which represents the sequence of transformations to be applied to the RDDs(Resilient Distributed Datasets.)
+	- optimization strategy allows Spark to minimize unnecessary computations and improve performance
+- Optimization Techniques:
+	- optimization techniques such as pipelining, partitioning, and caching to improve performance.
+- Integration with Hadoop Ecosystem:
+	- Spark can leverage the Hadoop Distributed File System (HDFS) for storing data and other components of the Hadoop ecosystem such as YARN for resource management.
+- Fault Tolerance: 
+	- Spark provides fault tolerance by storing the lineage information of RDDs. In case of a node failure, Spark can reconstruct lost data partitions using this lineage information, thus ensuring that computations can proceed without interruption.
+
+	
+	
+    
+
+
+
+
+
+
